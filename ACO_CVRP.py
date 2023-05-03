@@ -188,6 +188,12 @@ if __name__ == "__main__":
     if(fileName=="E-n22-k4.txt"):
         optimalSolution = ([[18, 21, 19, 16, 13], [17, 20, 22, 15], [14, 12, 5, 4, 9, 11], [10, 8, 6, 3, 2, 7]], 375)
         print("Optimal solution: "+str(optimalSolution))
+    if(fileName=="E-n33-k4.txt"):
+        optimalSolution = ([[1, 15, 26, 27, 16, 28, 29], [30, 14, 31], [3, 5, 6, 10, 18, 19, 22, 21, 20, 23, 24, 25, 17, 13], [2, 12, 11, 32, 8, 9, 7, 4]], 835)
+        print("Optimal solution: "+str(optimalSolution))
+    if(fileName=="E-n51-k5.txt"):
+        optimalSolution = ([[5, 49, 10, 39, 33, 45, 15, 44, 37, 17, 12], [47, 4, 42, 19, 40, 41, 13, 18], [46, 32, 1, 22, 20, 35, 36, 3, 28, 31, 26, 8], [6, 14, 25, 24, 43, 7, 23, 48, 27], [11, 16, 2, 29, 21, 50, 34, 30, 9, 38]], 521)
+        print("Optimal solution: "+str(optimalSolution))
 
 
 
